@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { FaLinkedinIn, FaGithub, FaTwitter, FaFacebookF } from 'react-icons/fa'
 import { useTheme  } from '../context/ThemeContext'
 import { personal  } from '../data/portfolio'
+import FooterQR from '../components/FooterQR'
 
 const socials = [
   { icon: FaLinkedinIn, href: '#', label: 'LinkedIn' },
@@ -65,6 +66,9 @@ export default function Footer() {
             ))}
           </nav>
 
+
+          <FooterQR size={100} className="self-start md:self-center" />
+
           {/* Socials */}
           <div className="flex gap-3">
             {socials.map(({ icon: Icon, href, label }) => (
@@ -105,7 +109,7 @@ export default function Footer() {
           <p className={`text-xs ${dark ? 'text-slate-600' : 'text-slate-400'}`}>
             Developed by{' '}
             <a
-              href="https://islamuddin-portfolio.netlify.app/"
+              href="https://github.com/islam37"
               target="_blank"
               rel="noopener noreferrer"
               className={`font-medium underline transition-colors ${

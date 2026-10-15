@@ -52,7 +52,7 @@ export default function Hero() {
               dark ? 'text-white' : 'text-slate-900'
             }`}
           >
-            Md. Ruman <br />
+            MD. Ruman <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">
               Ahmed
             </span>
@@ -87,7 +87,7 @@ export default function Hero() {
 
             <Button
               as="a"
-              href="/Ruman-CV.pdf"
+              href="/public/ruman-cv.pdf"
               download="Md_Ruman_Ahmed_CV.pdf"
               variant="outline"
               size="lg"
@@ -128,7 +128,7 @@ export default function Hero() {
 
             {/* IMAGE */}
             <img
-              src="https://i.ibb.co.com/Hfw4s5wP/Whats-App-Image-2025-05-15-at-00-52-15-043ed9e1.jpg"
+              src="https://i.ibb.co.com/FLTDg34d/Whats-App-Image-2026-10-15-at-10-49-48-PM.jpg"
               alt="Profile"
               className="relative 
                 w-52 h-64 sm:w-64 sm:h-72 md:w-72 md:h-80 
